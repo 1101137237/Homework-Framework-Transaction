@@ -35,7 +35,7 @@
       <tx:method name="Find*" read-only="true" />
       <tx:method name="*" />
     </tx:attributes>
-  </tx:advice>v
+  </tx:advice>
 
   <object id="serviceTxPointcut" type="Spring.Aop.Support.SdkRegularExpressionMethodPointcut, Spring.Aop">
     <property name="Pattern" value="KuasCore.Services.Impl.*Service" />
